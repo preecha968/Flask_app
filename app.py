@@ -19,7 +19,7 @@ def home():
     return render_template('home.html')
 
 
-#SIGNUP SYSTEM###############################################################################################
+#SIGNUP SYSTEM#####################################################################################
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
     if request.method == 'POST':
